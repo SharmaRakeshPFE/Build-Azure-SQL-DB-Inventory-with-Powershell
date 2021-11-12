@@ -129,5 +129,5 @@ if($Subscription){
                 
             }
         }
-        $OutData | Out-GridView -Title "Azure SQL DB Inventory Repor"
+        $OutData | Out-GridView -Title "Azure SQL DB Inventory Report"
     }
