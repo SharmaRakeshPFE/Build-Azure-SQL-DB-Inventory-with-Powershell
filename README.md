@@ -1,0 +1,1 @@
+# Build-Azure-SQL-DB-Inventory-with-Powershell
