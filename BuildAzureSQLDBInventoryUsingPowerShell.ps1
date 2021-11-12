@@ -61,7 +61,7 @@ if($Subscription){
                 $Report | Add-Member -Name "ServerName" -MemberType NoteProperty -Value $server.ServerName
                 $Report | Add-Member -Name "DatabaseName" -MemberType NoteProperty -Value $database.DatabaseName
                 $Report | Add-Member -Name "UsedSpace" -MemberType NoteProperty -Value $db_UsedSpace
-                $Report | Add-Member -Name "UsedSpaceProcentage" -MemberType NoteProperty -Value $db_UsedSpacePercentage
+                $Report | Add-Member -Name "UsedSpacePer" -MemberType NoteProperty -Value $db_UsedSpacePercentage
                 $Report | Add-Member -Name "AllocatedSpace" -MemberType NoteProperty -Value $db_AllocatedSpace
                 $Report | Add-Member -Name "MaximumStorageSize" -MemberType NoteProperty -Value $db_MaximumStorageSize
                 ##View the Report
